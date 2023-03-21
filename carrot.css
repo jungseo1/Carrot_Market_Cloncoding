@@ -1,0 +1,147 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  height: 30px;
+}
+
+.header_left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90%;
+}
+
+.logo_menu {
+  display: flex;
+  justify-content: space-between;
+  height: 90%;
+  align-items: baseline;
+  background-color: transparent;
+  border-color: transparent;
+  color: #ff6f0f;
+  font-weight: 1000;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  border: none;
+  padding-left: 20px;
+}
+.carrot_logo {
+  display: flex;
+  justify-content: space-between;
+  height: 90%;
+  align-items: center;
+  padding-bottom: 10px;
+  background-color: transparent;
+  border-color: transparent;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  background: none;
+  border: none;
+}
+.menu_orange {
+  display: flex;
+  justify-content: space-between;
+  height: 90%;
+  align-items: center;
+  padding-bottom: 10px;
+  background-color: transparent;
+  border-color: transparent;
+  color: #ff6f0f;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  height: 90%;
+  align-items: center;
+  padding-bottom: 10px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.search_s {
+  display: flex;
+  justify-content: space-between;
+  height: 90%;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  margin: 160px 0;
+  height: 30px;
+  width: 100%;
+  height: 22;
+  width: 264;
+  padding: 3px;
+  border: transparent;
+  background-color: #f2f3f6;
+  border-radius: 2px;
+  appearance: auto;
+  box-sizing: border-box;
+  padding: 1px 2px;
+}
+
+.comment-button {
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  color: #212529;
+  text-align: center;
+  font-weight: 700;
+  background-color: #fff;
+  margin: 16px 0;
+  text-decoration: none;
+}
+
+.text_app_down {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.button_app_down {
+  background-color: #eaebee;
+  border-color: transparent;
+  padding: 0 16px;
+  height: 30px;
+}
+
+.sean-footer2-whole {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px 0px 100px;
+  border-top: 1px solid #eaebee;
+}
+
+.sean-site-info-whole {
+  display: flex;
+  flex-direction: column;
+}
+
+.sean-site-details {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.sean-ceo {
+  display: flex;
+  align-items: center;
+}
+
+.sean-site-questions {
+  margin-bottom: 16px;
+}
