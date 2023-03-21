@@ -29,20 +29,17 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  column-gap: 44px;
   width: 100%;
 }
 
 .sean-product-whole {
-  margin-right: 44px;
   margin-bottom: 56px;
+  cursor: pointer;
 }
 
-#sean-product-4 {
-  margin-right: 0px;
-}
-
-#sean-product-8 {
-  margin-right: 0px;
+.sean-product-whole:hover {
+  opacity: 0.8;
 }
 
 .sean-product-image {
