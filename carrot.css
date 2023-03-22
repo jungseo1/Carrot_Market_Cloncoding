@@ -28,8 +28,6 @@ body {
   position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
   padding-top: 24px;
   height: 760px;
   width: 1024px;
@@ -101,6 +99,7 @@ a {
   padding: 14.5px 26px;
   background-color: #f1f3f5;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 #shsection2-button2 {
@@ -108,4 +107,5 @@ a {
   margin-left: 16px;
   background-color: #f1f3f5;
   border-radius: 6px;
+  cursor: pointer;
 }
