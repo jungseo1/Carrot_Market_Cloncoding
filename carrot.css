@@ -1,3 +1,134 @@
+
+.woo-part2-1-background {
+  background-color: #e6f3e6;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.woo-part2-1-background .woo-content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #e6f3e6;
+  width: 1024px;
+  height: 740px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.woo-part2-1-background .woo-title-neiborhood {
+  display: flex;
+  flex-direction: column;
+}
+
+.woo-title-icon {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  font-weight: 400;
+  width: 478px;
+  height: 172px;
+}
+
+.woo-title-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 140px;
+  max-width: 140px;
+}
+
+.woo-part2-1-background .woo-img-neiborhood-big {
+  background-size: 546px 740px;
+  width: 546px;
+  height: 740px;
+}
+
+.woo-title-icon-img {
+  width: 56px;
+  height: 56px;
+  background-size: 56px 56px;
+}
+
+.woo-title-icon-middle {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.woo-title-icon-small {
+  font-size: 12.2px;
+  line-height: 1.5;
+  height: 39px;
+}
+
+.woo-title-big {
+  font-size: 40px;
+  line-height: 1.35;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+.woo-title-small {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.3px;
+}
+
+.woo-part2-2-background {
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.woo-part2-2-background .woo-content-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 1024px;
+  height: 740px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.woo-part2-2-background .woo-title-neiborhood {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 267.45px;
+}
+
+.woo-part2-2-background .woo-img-neiborhood-big {
+  background-size: 546px 740px;
+  width: 526px;
+  height: 735px;
+}
+
+.woo-part2-1-background .woo-title-big {
+  margin-bottom: 24px;
+}
+
+.woo-button {
+  background-color: #f1f3f5;
+  border-radius: 6px;
+  padding: 14.5px 26px;
+  font-size: 18px;
+  line-height: 1.47;
+  margin-top: 32px;
+  border: none;
+  font-weight: bold;
+  width: 243px;
+  cursor: pointer;
+}
+
+.woo-button:hover {
+  background-color: #e9ecef;
+
 body {
   margin: 0;
 }
