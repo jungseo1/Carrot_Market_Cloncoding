@@ -95,17 +95,13 @@ a {
   color: #212529 !important;
 }
 
-#shsection2-button1 {
+.shsection2-button {
   padding: 14.5px 26px;
   background-color: #f1f3f5;
   border-radius: 6px;
   cursor: pointer;
 }
 
-#shsection2-button2 {
-  padding: 14.5px 26px;
-  margin-left: 16px;
-  background-color: #f1f3f5;
-  border-radius: 6px;
-  cursor: pointer;
+.shsection2-button-margin-left {
+  margin: 16px;
 }
