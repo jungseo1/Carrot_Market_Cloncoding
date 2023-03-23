@@ -90,7 +90,7 @@ body {
   font-size: 18px;
 }
 
-a {
+.shsection2-buttons > a {
   text-decoration: none;
   color: #212529 !important;
 }
