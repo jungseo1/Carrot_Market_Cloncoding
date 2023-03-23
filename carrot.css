@@ -25,6 +25,7 @@
   flex-direction: row;
   margin-top: 40px;
   display: flex;
+  gap: 40px;
   justify-content: space-between;
   font-weight: 400;
   width: 478px;
@@ -36,22 +37,8 @@
   flex-direction: column;
   margin-top: 16px;
   margin-bottom: 16px;
-  margin-right: 40px;
-  margin-left: 0;
   width: 140px;
   max-width: 140px;
-}
-
-.woo-title-buttons-one {
-  display: flex;
-  flex-direction: column;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-right: 0px;
-  margin-left: 0;
-  max-width: 140px;
-  width: 140px;
-  height: 140px;
 }
 
 .woo-part2-1-background .woo-img-neiborhood-big {
@@ -75,8 +62,9 @@
 }
 
 .woo-title-icon-small {
-  font-size: 12.5px;
+  font-size: 12.2px;
   line-height: 1.5;
+  height: 39px;
 }
 
 .woo-title-big {
@@ -134,6 +122,7 @@
   border: none;
   font-weight: bold;
   width: 243px;
+  cursor: pointer;
 }
 
 .woo-button:hover {
